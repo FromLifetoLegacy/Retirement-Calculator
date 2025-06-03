@@ -1,222 +1,214 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2580
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww28600\viewh18000\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Retirement Planning Calculator & Consultation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    h1 {
+      color: #0077cc;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #005fa3;
+      margin-top: 40px;
+      margin-bottom: 15px;
+    }
+    p, li {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #0077cc;
+      color: white;
+      padding: 15px 30px;
+      margin: 20px 0;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #005fa3;
+    }
+    .testimonial {
+      background: #e0f0ff;
+      border-left: 5px solid #0077cc;
+      margin: 20px 0;
+      padding: 15px 20px;
+      font-style: italic;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      color: #777;
+    }
+    .calculator {
+      margin-top: 20px;
+      background: #f4f7f8;
+      padding: 25px;
+      border-radius: 8px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #333;
+    }
+    input[type="number"] {
+      width: 100%;
+      padding: 8px 10px;
+      margin-top: 5px;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      font-size: 1rem;
+    }
+    .result {
+      margin-top: 25px;
+      background: #e7f0fd;
+      padding: 15px;
+      border-radius: 6px;
+      font-size: 1.1rem;
+      color: #004a99;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Secure Your Retirement with the Right Life Insurance</h1>
+    <p>Use our easy, FREE retirement planning calculator to see how much life insurance you need for a comfortable retirement. Then, schedule a complimentary consultation with a licensed financial broker (that’s me!) to tailor your plan.</p>
 
-\f0\fs24 \cf0 <!DOCTYPE html>\
-<html lang="en">\
-<head>\
-  <meta charset="UTF-8" />\
-  <meta name="viewport" content="width=device-width, initial-scale=1" />\
-  <title>Retirement Planning Calculator & Consultation</title>\
-  <style>\
-    body \{\
-      font-family: Arial, sans-serif;\
-      margin: 0; padding: 0;\
-      background: #f9f9f9;\
-      color: #333;\
-    \}\
-    .container \{\
-      max-width: 900px;\
-      margin: 40px auto;\
-      padding: 20px;\
-      background: white;\
-      box-shadow: 0 0 12px rgba(0,0,0,0.1);\
-      border-radius: 8px;\
-    \}\
-    h1 \{\
-      color: #0077cc;\
-      margin-bottom: 10px;\
-    \}\
-    h2 \{\
-      color: #005fa3;\
-      margin-top: 40px;\
-      margin-bottom: 15px;\
-    \}\
-    p, li \{\
-      line-height: 1.6;\
-      font-size: 1.1rem;\
-    \}\
-    .btn \{\
-      display: inline-block;\
-      background-color: #0077cc;\
-      color: white;\
-      padding: 15px 30px;\
-      margin: 20px 0;\
-      font-size: 1.2rem;\
-      border: none;\
-      border-radius: 5px;\
-      text-decoration: none;\
-      cursor: pointer;\
-      transition: background-color 0.3s ease;\
-    \}\
-    .btn:hover \{\
-      background-color: #005fa3;\
-    \}\
-    .testimonial \{\
-      background: #e0f0ff;\
-      border-left: 5px solid #0077cc;\
-      margin: 20px 0;\
-      padding: 15px 20px;\
-      font-style: italic;\
-      border-radius: 4px;\
-    \}\
-    footer \{\
-      text-align: center;\
-      font-size: 0.9rem;\
-      margin-top: 40px;\
-      padding-top: 20px;\
-      border-top: 1px solid #ddd;\
-      color: #777;\
-    \}\
-    .calculator \{\
-      margin-top: 20px;\
-      background: #f4f7f8;\
-      padding: 25px;\
-      border-radius: 8px;\
-    \}\
-    label \{\
-      display: block;\
-      margin-top: 15px;\
-      font-weight: bold;\
-      color: #333;\
-    \}\
-    input[type="number"] \{\
-      width: 100%;\
-      padding: 8px 10px;\
-      margin-top: 5px;\
-      border-radius: 4px;\
-      border: 1px solid #bbb;\
-      font-size: 1rem;\
-    \}\
-    .result \{\
-      margin-top: 25px;\
-      background: #e7f0fd;\
-      padding: 15px;\
-      border-radius: 6px;\
-      font-size: 1.1rem;\
-      color: #004a99;\
-    \}\
-  </style>\
-</head>\
-<body>\
-  <div class="container">\
-    <h1>Secure Your Retirement with the Right Life Insurance</h1>\
-    <p>Use our easy, FREE retirement planning calculator to see how much life insurance you need for a comfortable retirement. Then, schedule a complimentary consultation with a licensed financial broker (that\'92s me!) to tailor your plan.</p>\
-\
-    <h2>How It Works</h2>\
-    <ol>\
-      <li>Enter your details in the calculator below.</li>\
-      <li>Get an instant estimate of your retirement insurance needs.</li>\
-      <li>Click the button to schedule your free 30-minute consultation.</li>\
-    </ol>\
-\
-    <h2>Retirement Planning Calculator</h2>\
-    <div class="calculator">\
-      <label for="currentAge">Current Age</label>\
-      <input type="number" id="currentAge" min="18" max="100" value="35" />\
-\
-      <label for="retirementAge">Expected Retirement Age</label>\
-      <input type="number" id="retirementAge" min="40" max="100" value="65" />\
-\
-      <label for="currentSavings">Current Retirement Savings ($)</label>\
-      <input type="number" id="currentSavings" min="0" step="1000" value="50000" />\
-\
-      <label for="monthlyExpenses">Expected Monthly Expenses During Retirement ($)</label>\
-      <input type="number" id="monthlyExpenses" min="0" step="100" value="3000" />\
-\
-      <label for="annualReturn">Expected Annual Return Rate (%)</label>\
-      <input type="number" id="annualReturn" min="0" max="15" step="0.1" value="6" />\
-\
-      <label for="inflationRate">Expected Annual Inflation Rate (%)</label>\
-      <input type="number" id="inflationRate" min="0" max="10" step="0.1" value="2" />\
-\
-      <label for="retirementDuration">Desired Retirement Duration (years)</label>\
-      <input type="number" id="retirementDuration" min="10" max="50" value="25" />\
-\
-      <button class="btn" onclick="calculateRetirement()">Calculate</button>\
-\
-      <div class="result" id="result" style="display:none;"></div>\
-    </div>\
-\
-    <h2>Ready to Secure Your Future?</h2>\
-    <a href="https://calendly.com/smichaelmccain/new-meeting" class="btn" target="_blank" rel="noopener">Schedule Your Free Consultation</a>\
-\
-    <h2>Why Work With Me?</h2>\
-    <ul>\
-      <li>Licensed financial broker specializing in life insurance and retirement benefits</li>\
-      <li>Proven strategies to maximize your retirement income</li>\
-      <li>Personalized, no-pressure consultations</li>\
-    </ul>\
-\
-    <h2>Client Testimonials</h2>\
-    <div class="testimonial">\
-      \'93Thanks to this tool and Michael's guidance, I finally feel confident about my retirement plan!\'94 \'96 Jane F.\
-    </div>\
-    <div class="testimonial">\
-      \'93Clear, simple, and professional advice that made all the difference.\'94 \'96 Mark S.\
-    </div>\
-\
-    <h2>FAQ</h2>\
-    <p><strong>Q: How accurate is the calculator?</strong><br />\
-      A: It provides a solid estimate based on your inputs but is not a substitute for personalized financial advice.</p>\
-    <p><strong>Q: Is the consultation really free?</strong><br />\
-      A: Absolutely! No obligation, just expert guidance tailored to your needs.</p>\
-  </div>\
-\
-  <footer>\
-    &copy; 2025 From Life to Legacy | <a href="#">Privacy Policy</a>\
-  </footer>\
-\
-  <script>\
-    function calculateRetirement() \{\
-      const currentAge = parseInt(document.getElementById('currentAge').value);\
-      const retirementAge = parseInt(document.getElementById('retirementAge').value);\
-      const currentSavings = parseFloat(document.getElementById('currentSavings').value);\
-      const monthlyExpenses = parseFloat(document.getElementById('monthlyExpenses').value);\
-      const annualReturn = parseFloat(document.getElementById('annualReturn').value) / 100;\
-      const inflationRate = parseFloat(document.getElementById('inflationRate').value) / 100;\
-      const retirementDuration = parseInt(document.getElementById('retirementDuration').value);\
-\
-      if (retirementAge <= currentAge) \{\
-        alert('Retirement age must be greater than current age.');\
-        return;\
-      \}\
-      if (monthlyExpenses <= 0) \{\
-        alert('Monthly expenses must be greater than 0.');\
-        return;\
-      \}\
-\
-      const yearsUntilRetirement = retirementAge - currentAge;\
-      const futureMonthlyExpenses = monthlyExpenses * Math.pow(1 + inflationRate, yearsUntilRetirement);\
-      const totalRetirementExpenses = futureMonthlyExpenses * 12 * retirementDuration;\
-      const futureSavings = currentSavings * Math.pow(1 + annualReturn, yearsUntilRetirement);\
-      const shortfall = totalRetirementExpenses - futureSavings;\
-      const insuranceNeeded = shortfall > 0 ? shortfall.toFixed(2) : 0;\
-\
-      function formatCurrency(num) \{\
-        return '$' + num.toString().replace(/\\B(?=(\\d\{3\})+(?!\\d))/g, ",");\
-      \}\
-\
-      const resultDiv = document.getElementById('result');\
-      resultDiv.style.display = 'block';\
-      resultDiv.innerHTML = `\
-        <strong>Summary:</strong><br />\
-        Years until retirement: <strong>$\{yearsUntilRetirement\}</strong><br />\
-        Future monthly expenses (inflation adjusted): <strong>$\{formatCurrency(futureMonthlyExpenses.toFixed(2))\}</strong><br />\
-        Total retirement expenses needed: <strong>$\{formatCurrency(totalRetirementExpenses.toFixed(2))\}</strong><br />\
-        Future value of current savings: <strong>$\{formatCurrency(futureSavings.toFixed(2))\}</strong><br />\
-        <br />\
-        $\{shortfall > 0 \
-          ? `<span style="color:#d9534f;">You have a shortfall of <strong>$\{formatCurrency(shortfall.toFixed(2))\}</strong>. <br />\
-             Suggested life insurance coverage amount: <strong>$\{formatCurrency(insuranceNeeded)\}</strong></span>`\
-          : `<span style="color:#5cb85c;">Good news! Your savings exceed your estimated retirement expenses by <strong>$\{formatCurrency(Math.abs(shortfall).toFixed(2))\}</strong>.</span>`\
-        \}\
-      `;\
-    \}\
-  </script>\
-</body>\
-</html>\
-}
+    <h2>How It Works</h2>
+    <ol>
+      <li>Enter your details in the calculator below.</li>
+      <li>Get an instant estimate of your retirement insurance needs.</li>
+      <li>Click the button to schedule your free 30-minute consultation.</li>
+    </ol>
+
+    <h2>Retirement Planning Calculator</h2>
+    <div class="calculator">
+      <label for="currentAge">Current Age</label>
+      <input type="number" id="currentAge" min="18" max="100" value="35" />
+
+      <label for="retirementAge">Expected Retirement Age</label>
+      <input type="number" id="retirementAge" min="40" max="100" value="65" />
+
+      <label for="currentSavings">Current Retirement Savings ($)</label>
+      <input type="number" id="currentSavings" min="0" step="1000" value="50000" />
+
+      <label for="monthlyExpenses">Expected Monthly Expenses During Retirement ($)</label>
+      <input type="number" id="monthlyExpenses" min="0" step="100" value="3000" />
+
+      <label for="annualReturn">Expected Annual Return Rate (%)</label>
+      <input type="number" id="annualReturn" min="0" max="15" step="0.1" value="6" />
+
+      <label for="inflationRate">Expected Annual Inflation Rate (%)</label>
+      <input type="number" id="inflationRate" min="0" max="10" step="0.1" value="2" />
+
+      <label for="retirementDuration">Desired Retirement Duration (years)</label>
+      <input type="number" id="retirementDuration" min="10" max="50" value="25" />
+
+      <button class="btn" onclick="calculateRetirement()">Calculate</button>
+
+      <div class="result" id="result" style="display:none;"></div>
+    </div>
+
+    <h2>Ready to Secure Your Future?</h2>
+    <a href="https://calendly.com/smichaelmccain/new-meeting" class="btn" target="_blank" rel="noopener">Schedule Your Free Consultation</a>
+
+    <h2>Why Work With Me?</h2>
+    <ul>
+      <li>Licensed financial broker specializing in life insurance and retirement benefits</li>
+      <li>Proven strategies to maximize your retirement income</li>
+      <li>Personalized, no-pressure consultations</li>
+    </ul>
+
+    <h2>Client Testimonials</h2>
+    <div class="testimonial">
+      “Thanks to this tool and Michael's guidance, I finally feel confident about my retirement plan!” – Jane F.
+    </div>
+    <div class="testimonial">
+      “Clear, simple, and professional advice that made all the difference.” – Mark S.
+    </div>
+
+    <h2>FAQ</h2>
+    <p><strong>Q: How accurate is the calculator?</strong><br />
+      A: It provides a solid estimate based on your inputs but is not a substitute for personalized financial advice.</p>
+    <p><strong>Q: Is the consultation really free?</strong><br />
+      A: Absolutely! No obligation, just expert guidance tailored to your needs.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 From Life to Legacy | <a href="#">Privacy Policy</a>
+  </footer>
+
+  <script>
+    function calculateRetirement() {
+      const currentAge = parseInt(document.getElementById('currentAge').value);
+      const retirementAge = parseInt(document.getElementById('retirementAge').value);
+      const currentSavings = parseFloat(document.getElementById('currentSavings').value);
+      const monthlyExpenses = parseFloat(document.getElementById('monthlyExpenses').value);
+      const annualReturn = parseFloat(document.getElementById('annualReturn').value) / 100;
+      const inflationRate = parseFloat(document.getElementById('inflationRate').value) / 100;
+      const retirementDuration = parseInt(document.getElementById('retirementDuration').value);
+
+      if (retirementAge <= currentAge) {
+        alert('Retirement age must be greater than current age.');
+        return;
+      }
+      if (monthlyExpenses <= 0) {
+        alert('Monthly expenses must be greater than 0.');
+        return;
+      }
+
+      const yearsUntilRetirement = retirementAge - currentAge;
+      const futureMonthlyExpenses = monthlyExpenses * Math.pow(1 + inflationRate, yearsUntilRetirement);
+      const totalRetirementExpenses = futureMonthlyExpenses * 12 * retirementDuration;
+      const futureSavings = currentSavings * Math.pow(1 + annualReturn, yearsUntilRetirement);
+      const shortfall = totalRetirementExpenses - futureSavings;
+      const insuranceNeeded = shortfall > 0 ? shortfall.toFixed(2) : 0;
+
+      function formatCurrency(num) {
+        return '$' + num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+
+      const resultDiv = document.getElementById('result');
+      resultDiv.style.display = 'block';
+      resultDiv.innerHTML = `
+        <strong>Summary:</strong><br />
+        Years until retirement: <strong>${yearsUntilRetirement}</strong><br />
+        Future monthly expenses (inflation adjusted): <strong>${formatCurrency(futureMonthlyExpenses.toFixed(2))}</strong><br />
+        Total retirement expenses needed: <strong>${formatCurrency(totalRetirementExpenses.toFixed(2))}</strong><br />
+        Future value of current savings: <strong>${formatCurrency(futureSavings.toFixed(2))}</strong><br />
+        <br />
+        ${shortfall > 0 
+          ? `<span style="color:#d9534f;">You have a shortfall of <strong>${formatCurrency(shortfall.toFixed(2))}</strong>. <br />
+             Suggested life insurance coverage amount: <strong>${formatCurrency(insuranceNeeded)}</strong></span>`
+          : `<span style="color:#5cb85c;">Good news! Your savings exceed your estimated retirement expenses by <strong>${formatCurrency(Math.abs(shortfall).toFixed(2))}</strong>.</span>`
+        }
+      `;
+    }
+  </script>
+</body>
+</html>
